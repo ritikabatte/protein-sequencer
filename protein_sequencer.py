@@ -1,4 +1,4 @@
-import matplotlib
+import matplotlib.pyplot as plt
 import Bio
 
 # Getting the structure of human hemoglobin
@@ -18,3 +18,10 @@ for amino_acid, count in amino_acid_count.items():
     print(f"{amino_acid}: {count}")
 
 # Visualize 
+amino_acids = list(amino_acid_count.keys())
+frequencies = list(amino_acid_count.values())
+plt.bar(amino_acids, frequencies, width = 0.5, color = 'navy')
+plt.title("Amino Acid Composition of Human Hemoglobin")
+plt.xlabel("Amino Acids")
+plt.ylabel("Freqeuncy")
+plt.show()
