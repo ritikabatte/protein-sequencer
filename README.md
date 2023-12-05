@@ -1,7 +1,7 @@
 # protein-sequencer
 
 ## Project Description 
-Perform basica analysis of protein sequeneces. It takes the structure of human hemoglobin, counts the frequency of each amino acid, and visualizes the data in a bar chart. 
+Perform basic analysis of protein sequeneces. It takes the structure of human hemoglobin, counts the frequency of each amino acid, and visualizes the data in a bar chart. 
 
 ## How to Run 
 run the program: ```python protein_sequencer.py```
